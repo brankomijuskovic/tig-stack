@@ -8,6 +8,6 @@
 
 ## Installation
 
-``` Install telegraf and copy the config ```
-``` docker-compose up -d```
+- Install telegraf and copy the config 
+- docker-compose up -d
 
