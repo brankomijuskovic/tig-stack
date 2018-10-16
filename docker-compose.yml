@@ -10,6 +10,7 @@ services:
       - "8090:3000"
     networks:
       - net-monitoring
+    restart: always
 
   influxdb:
     container_name: influxdb
@@ -26,6 +27,8 @@ services:
       - "8086:8086"
     networks:
       - net-monitoring
+    restart: always
+    
 volumes:
   grafana_vol:
   influxdb_vol:
