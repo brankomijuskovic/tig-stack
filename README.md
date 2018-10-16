@@ -1,19 +1,13 @@
 #  {Telegraf / InfluxDB / Grafana}
 
-## Prérequis
+## Prerequisites
 
 - docker
 - docker-compose
+- telegraf
 
 ## Installation
 
-Creation des dossiers pour la persistance:
-
-``` mkdir data-grafana```
-
-``` mkdir influxdb```
-
-Lancement du docker compose:
-
+``` Install telegraf and copy the config ```
 ``` docker-compose up -d```
 
